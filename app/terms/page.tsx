@@ -1,38 +1,38 @@
 import { config } from "@/config"
 import { Metadata } from "next"
 
-const { baseUrl } = config
+// const { baseUrl } = config
 
-export const metadata: Metadata = {
-    metadataBase: new URL(baseUrl as string),
-    title: 'Terms and Conditions',
-    description: "Read the Terms and Conditions",
-    keywords: 'Soma Terms and Conditions, terms and conditions, soma terms',
-    alternates: {
-        canonical: '/terms'
-    },
-    openGraph: {
-        title: 'Terms and Conditions',
-        description: 'Read the Terms and Conditions',
-        url: '/terms',
-        siteName: 'Soma',
-        images: [
-            {
-                url: '/soma-og.webp',
-                width: 800,
-                height: 600,
-                alt: 'Soma TV',
-            },
-            {
-                url: '/soma-og.webp',
-                width: 1800,
-                height: 1600,
-                alt: 'Soma TV',
-            },
-        ],
-        type: 'website',
-    },
-}
+// export const metadata: Metadata = {
+//     metadataBase: new URL(baseUrl as string),
+//     title: 'Terms and Conditions',
+//     description: "Read the Terms and Conditions",
+//     keywords: 'Soma Terms and Conditions, terms and conditions, soma terms',
+//     alternates: {
+//         canonical: '/terms'
+//     },
+//     openGraph: {
+//         title: 'Terms and Conditions',
+//         description: 'Read the Terms and Conditions',
+//         url: '/terms',
+//         siteName: 'Soma',
+//         images: [
+//             {
+//                 url: '/soma-og.webp',
+//                 width: 800,
+//                 height: 600,
+//                 alt: 'Soma TV',
+//             },
+//             {
+//                 url: '/soma-og.webp',
+//                 width: 1800,
+//                 height: 1600,
+//                 alt: 'Soma TV',
+//             },
+//         ],
+//         type: 'website',
+//     },
+// }
 
 export default function Terms() {
     return (
