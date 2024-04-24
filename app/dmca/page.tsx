@@ -1,38 +1,38 @@
 import { config } from "@/config"
 import { Metadata } from "next"
 
-const { baseUrl } = config
+// const { baseUrl } = config
 
-export const metadata: Metadata = {
-    metadataBase: new URL(baseUrl as string),
-    title: 'DMCA Takedown Request',
-    description: "Read the DMCA Takedown Request",
-    keywords: 'Soma DMCA Takedown Request, dmca takedown request, takedown request, dmca',
-    alternates: {
-        canonical: '/dmca'
-    },
-    openGraph: {
-        title: 'DMCA Takedown Request',
-        description: 'Read the DMCA Takedown Requests',
-        url: '/dmca',
-        siteName: 'Soma',
-        images: [
-            {
-                url: '/soma-og.webp',
-                width: 800,
-                height: 600,
-                alt: 'Soma TV',
-            },
-            {
-                url: '/soma-og.webp',
-                width: 1800,
-                height: 1600,
-                alt: 'Soma TV',
-            },
-        ],
-        type: 'website',
-    },
-}
+// export const metadata: Metadata = {
+//     metadataBase: new URL(baseUrl as string),
+//     title: 'DMCA Takedown Request',
+//     description: "Read the DMCA Takedown Request",
+//     keywords: 'Soma DMCA Takedown Request, dmca takedown request, takedown request, dmca',
+//     alternates: {
+//         canonical: '/dmca'
+//     },
+//     openGraph: {
+//         title: 'DMCA Takedown Request',
+//         description: 'Read the DMCA Takedown Requests',
+//         url: '/dmca',
+//         siteName: 'Soma',
+//         images: [
+//             {
+//                 url: '/soma-og.webp',
+//                 width: 800,
+//                 height: 600,
+//                 alt: 'Soma TV',
+//             },
+//             {
+//                 url: '/soma-og.webp',
+//                 width: 1800,
+//                 height: 1600,
+//                 alt: 'Soma TV',
+//             },
+//         ],
+//         type: 'website',
+//     },
+// }
 
 export default function DMCA() {
     return (
